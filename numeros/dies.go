@@ -30,9 +30,9 @@ func Tabla(){
 	pito = tabla
 	break
 	}
-	
-	for i:= pito; i<=10; i++{
-		fmt.Println(i)
+	fmt.Println("tabla de multiplicar de",pito)
+	for i:= 1; i<=10; i++{
+		fmt.Println(pito,"x",i,"=",pito*i)
 }
 	
 
